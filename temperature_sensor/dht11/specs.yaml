@@ -1,0 +1,18 @@
+voltage: 3.3V-5V
+pins:
+  - output
+  - power in
+  - power out
+humidity:
+  range: 20%-90%
+  error: +-5%
+temperature:
+  range: 0C-50C
+  error: +-2 degrees
+driver: https://github.com/adafruit/Adafruit_CircuitPython_DHT
+sources:
+ - https://www.amazon.com/gp/product/B07WT2HJ4F
+pi_pico:
+  output: gp28 (adc)
+  power in: 3v3
+  power out: gnd

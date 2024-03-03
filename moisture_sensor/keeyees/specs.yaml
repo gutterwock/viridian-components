@@ -1,0 +1,13 @@
+voltage: 3.3V-5V
+pins:
+  - analog output
+  - digital output
+  - power in
+  - power out
+pi_pico:
+  analog output: gp28 (adc)
+  power in: 3v3
+  power out: gnd
+sources:
+ - 'https://www.amazon.com/gp/product/B07QXZC8TQ'
+note: Includes potentiometer for sensitivity (clockwise = less sensitive)
