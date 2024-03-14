@@ -1,0 +1,11 @@
+voltage: 3.7V
+amps: 1200mAH
+pins:
+ - positive
+ - negative
+pi_pico:
+  positive: 100k resistor -> wire
+  negative:
+  - 100k resistor -> wire
+  - ground
+  wire: gp28 (adc)
